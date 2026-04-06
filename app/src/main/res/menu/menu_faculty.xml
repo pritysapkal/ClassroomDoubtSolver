@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_chat"
+        android:title="Faculty Chat"
+        android:icon="@drawable/ic_chat"
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/action_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/ic_notification"
+        app:showAsAction="always"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="always"
+        android:orderInCategory="3"/>
+
+</menu>

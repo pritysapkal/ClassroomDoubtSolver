@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="accent">#FF6F00</color>
+    <color name="accent_light">#FFF8E1</color>
+    <color name="student_primary">#1565C0</color>
+    <color name="faculty_primary">#2E7D32</color>
+    <color name="student_light">#E3F2FD</color>
+    <color name="faculty_light">#E8F5E9</color>
+    <color name="status_open">#F57F17</color>
+    <color name="status_answered">#2E7D32</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#F5F7FA</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#666680</color>
+    <color name="divider">#E8EAF6</color>
+    <color name="error">#C62828</color>
+    <color name="badge_red">#E53935</color>
+    <color name="transparent">#00000000</color>
+    <color name="search_text">#1A1A2E</color>
+</resources>

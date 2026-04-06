@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:gravity="center">
+
+    <!-- Logo Section -->
+    <LinearLayout
+        android:id="@+id/logoSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="48dp">
+
+        <!-- Logo Circle Background -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="@color/primary">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="💡"
+                android:textSize="48sp"
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DoubtSolve"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:letterSpacing="0.02"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Academic Companion"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <!-- Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE YOUR ROLE"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_secondary"
+        android:letterSpacing="0.15"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Student Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardStudent"
+        android:layout_width="320dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
+
+            <!-- Left colored bar -->
+            <View
+                android:layout_width="4dp"
+                android:layout_height="60dp"
+                android:background="@color/student_primary"
+                android:layout_marginEnd="16dp"/>
+
+            <!-- Icon -->
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="🎓"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@color/student_light"
+                android:layout_marginEnd="16dp"/>
+
+            <!-- Text -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/student_primary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Post and track your doubts"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <!-- Arrow -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textSize="32sp"
+                android:textColor="@color/student_primary"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Faculty Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFaculty"
+        android:layout_width="320dp"
+        android:layout_height="130dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp">
+
+            <!-- Left colored bar -->
+            <View
+                android:layout_width="4dp"
+                android:layout_height="60dp"
+                android:background="@color/faculty_primary"
+                android:layout_marginEnd="16dp"/>
+
+            <!-- Icon -->
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="👨‍🏫"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:background="@color/faculty_light"
+                android:layout_marginEnd="16dp"/>
+
+            <!-- Text -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faculty"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/faculty_primary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer and guide students"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <!-- Arrow -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="›"
+                android:textSize="32sp"
+                android:textColor="@color/faculty_primary"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Version -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="v1.0"
+        android:textSize="11sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+# Gradle / build output
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# Local config
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Firebase config (add your own; see README)
+app/google-services.json
